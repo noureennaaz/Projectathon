@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" href="./assets/logop.png" type="image/x-icon">
+    <title>Register User</title>
+</head>
+<body>
+    <section id="registerbox">
+        <div class="featured-text">
+            <div id="field2" class="hide">
+            <h1 > Register</h1>
+            <form action="" name="form1" id="formid"  method="post"  onsubmit="return validation();">
+            <div class="box">
+                <i class="fa fa-envelope"></i>
+                <input type="email"name="email" id="email1" placeholder="Enter Your Email" style="color: red; font-weight:bold;" required> 
+                <br>
+               
+            </div>
+            <div class="box">
+                <i class="fa fa-envelope"></i>
+                <input type="text"name="username" id="username2" style="color: red; font-weight:bold;" placeholder="Create username" required> 
+                <br>
+                <!-- <span id="uid" style="color: red; font-weight:bold;"></span> -->
+            </div>
+            <div class="box">
+                <i class="fa fa-key"></i>
+                <input type="password"name="password" id="password1" style="color: red; font-weight:bold;" placeholder="Create Password"  required>
+                <br>
+                <!-- <span id="passid" style="color: red; font-weight:bold;"></span> -->
+
+            </div>
+            <div class="box">
+                <i class="fa fa-key"></i>
+                <input type="password"name="Cpassword" id="Cpassword" style="color: red; font-weight:bold;" placeholder="Comfirm Password"  requiredinsex>
+                <br>
+                <!-- <span id="cpassid" style="color: red; font-weight:bold;"></span> -->
+
+            </div>
+            <!-- <button class="btn">Sign In</button> -->
+            <input  type="submit" class="btn" name="s2" style="color: black;" onclick="location.href='index.html'">
+            </form>
+
+         
+
+            <div>
+                
+            </div>
+            </div>
+        </div>
+        </section>
+        <script src="javascript.js"></script>
+</body>
+</html>
